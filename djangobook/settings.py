@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'app_lemuzi',
-        'USER': 'nnzyz3lo0y',
-        'PASSWORD': 'hw54z5mlz12xj4j0x23xx43xl4l24111y4i0whik',
+        'USER': 'XXX',
+        'PASSWORD': 'XXX',
         'HOST': 'w.rdc.sae.sina.com.cn',
         'PORT': '3307',
     }
@@ -93,8 +93,8 @@ DATABASES = {
 #Email settings
 EMAIL_HOST = 'smtp.126.com'
 EMAIL_PORT = '25'
-EMAIL_HOST_USER = 'jiefu224@126.com'
-EMAIL_HOST_PASSWORD = 'angry123'
+EMAIL_HOST_USER = 'XXX@126.com'
+EMAIL_HOST_PASSWORD = 'XXX'
 EMAIL_USE_TLS = True
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
