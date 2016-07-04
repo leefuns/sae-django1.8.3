@@ -7,6 +7,7 @@
 
 ##### config.yaml
 
+<pre><code>
    name: lemuzi
    version: 3
   
@@ -17,3 +18,4 @@
    handlers:
    - url: /static
    static_dir: static
+</pre></code>
