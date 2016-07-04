@@ -17,3 +17,16 @@
    \- url: /static
    static_dir: static
 </code></pre>
+  
+##### index.wsgi
+   import os
+   import sys
+   
+   root = os.path.dirname(__file__)
+   sys.path.insert(0, os.path.join(root, 'site-packages'))
+   os.environ.setdefault("DJANGO_SETTINGS_MODULE" , "djangobook.settings")
+   
+   from django.core.wsgi import get_wsgi_application  
+   application = get_wsgi_application()
+   
+##### this
