@@ -41,3 +41,9 @@
   os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangobook.settings")
   application = get_wsgi_application()
 </code></pre>
+
+##### Under the new project root directory site-packages and static folder, copy the django installation directory files and static files to the project folder.
+
+django installation directory is usually in C:\Python27\Lib\site-packages
+static filse usually in C:\Python27\Lib\site-packages\django\contrib\admin\static
+
