@@ -29,18 +29,6 @@
    from django.core.wsgi import get_wsgi_application  
    application = get_wsgi_application()
 </code></pre>
-   
-##### wsgi.py
-<pre><code>
-  import os
-  import sys
-  from django.core.wsgi import get_wsgi_application
-  
-  root = os.path.dirname(__file__)
-  sys.path.insert(0,os.path.join(root, '..', 'site-packages'))
-  os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangobook.settings")
-  application = get_wsgi_application()
-</code></pre>
 
 Under the new project root directory site-packages and static folder, copy the django installation directory files and static files to the project folder.
 
