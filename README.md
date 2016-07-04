@@ -10,15 +10,16 @@
    version: 3
      
    libraries:
-   \- name:"django"
+   - name:"django"
    version:"1.8.3"
      
    handlers:
-   \- url: /static
+   - url: /static
    static_dir: static
 </code></pre>
   
 ##### index.wsgi
+<pre><code>
    import os
    import sys
    
@@ -28,5 +29,6 @@
    
    from django.core.wsgi import get_wsgi_application  
    application = get_wsgi_application()
+</code></pre>
    
 ##### this
